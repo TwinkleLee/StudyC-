@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Animal.cs" />
     <Compile Include="ArrayList.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="Time.cs" />
     <Compile Include="Father.cs" />
     <Compile Include="NameScape.cs" />
     <Compile Include="Number.cs" />
@@ -53,6 +55,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp1\ConsoleApp1.csproj">
+      <Project>{EA53D56A-F742-4759-8687-307F2750DA02}</Project>
+      <Name>ConsoleApp1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

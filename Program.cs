@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NameSpace2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,13 +23,18 @@ namespace ConsoleApp3
             //new MyArrayList().Do();
             //new MyList().Do();
 
-            
-            Console.WriteLine(new MyList().Feibonaqi(5));
+
+            //Console.WriteLine(new MyList().Feibonaqi(5));
+
+            //new MyTime().Do();
+
+            var temp = new Test();
+
+            var account = new BankAccount("lilintao", 1000);
+            Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
 
             Console.WriteLine("\n输入任意键退出");
             Console.ReadKey();
-
-
         }
     }
 }
