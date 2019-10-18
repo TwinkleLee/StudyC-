@@ -13,7 +13,22 @@ namespace ConsoleApp3
         {
             //new Child().Do2();
             //new Father().Do();
-            new Person().Shout();
+            //new Person().Shout();
+            //Console.WriteLine(NameScape.NameScape.ShowString);
+
+            //new Number().Compute();
+
+            //new MyArray().Do();
+            //new MyArrayList().Do();
+            //new MyList().Do();
+
+            
+            Console.WriteLine(new MyList().Feibonaqi(5));
+
+            Console.WriteLine("\n输入任意键退出");
+            Console.ReadKey();
+
+
         }
     }
 }
