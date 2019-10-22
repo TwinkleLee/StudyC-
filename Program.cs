@@ -1,4 +1,4 @@
-﻿using NameSpace2;
+﻿//using NameSpace2;//不同框架不可互相引用
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,11 +27,6 @@ namespace ConsoleApp3
             //Console.WriteLine(new MyList().Feibonaqi(5));
 
             //new MyTime().Do();
-
-            var temp = new Test();
-
-            var account = new BankAccount("lilintao", 1000);
-            Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
 
             Console.WriteLine("\n输入任意键退出");
             Console.ReadKey();
