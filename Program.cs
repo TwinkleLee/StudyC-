@@ -29,7 +29,7 @@ namespace ConsoleApp3
             //new MyTime().Do();
 
             Console.WriteLine("\n输入任意键退出");
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
